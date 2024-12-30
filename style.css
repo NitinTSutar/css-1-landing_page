@@ -1,0 +1,175 @@
+
+.container{
+    padding: 20px 90px;
+    height: 100vh;
+}
+section:nth-child(1){
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-container div, .list li, .button-group{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+.navbar-container{
+    width: 100%;
+    height: 55px;
+}
+.navbar-container div img{
+    height: 50px;
+}
+.list{
+    align-items: center;
+    height: 40px;
+    width: 550px;
+    margin:0px 250px;
+    
+    
+}
+.button-group{
+    align-items: center; 
+
+}
+
+.list li{
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 24px;
+    
+}
+.list li:hover{
+    font-weight: bold;
+    text-decoration: underline ;
+}
+
+svg{
+    position: absolute;
+    top: -30px;
+    left: -25px;
+    padding: 5px;
+
+}
+.nav-button{
+    background-color: transparent;
+    position: absolute;
+    top: -25px;
+    left: 18px;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+}
+.globe, .star, .square{
+    position: absolute;
+}
+.globe{
+    top: 120px;
+    left: 53%;
+}
+.globe img{
+    height: 60px;
+}
+.star{
+    left: 83%;
+    top: 20%;
+}
+.star img{
+    height: 60px;
+}
+.hero-container div{
+    position: relative;
+    display: inline-block;
+}
+
+.hero-container div img{
+    position: absolute;
+    height: 550px;
+    top: -394px;
+}
+.square{
+    left: 280px;
+    top: 450px;
+    
+}
+.square img{
+    height: 320px;
+}
+.hero-container-right{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    width: 850px;
+    
+}
+h1{
+    width: 1000px;
+    font-size: 70px;
+    
+    margin: 0px;
+    margin-bottom: 160px;
+}
+.icons span img{
+    height: 10px;
+}
+
+.hero-description{
+    text-align: center;
+    width: 580px;
+    margin: 0px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.hero-container-right div{
+    display:flow-root;
+    padding-left: 200px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+}
+.button-email{
+    width: 200px;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+}
+.button-join{
+    margin-left: 15px;
+    width: 120px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-heading{
+    margin-left: 140px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.hero-container-right div div{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -20px;
+    margin-left: 80px;
+
+}
+
+.hero-container-right div div span{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+.hero-container-right div div span img{
+    top: 5px;
+    height: 30px;
+}
+::-webkit-scrollbar{
+    display: hidden;
+}
